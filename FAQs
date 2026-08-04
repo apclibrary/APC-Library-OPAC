@@ -1,0 +1,239 @@
+
+
+Purpose: FAQs of APC Library
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #c98e10;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #d6cece;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+<div align="center">
+  <p style="font-family: Verdana, sans-serif; font-size: 28px; font-weight: 500; text-align: center; background-color: #e7af41; padding: 15px; border-radius: 15px;">
+    <strong>Frequently Asked Questions (FAQs)</strong>
+  </p>
+</div>
+<br>
+<h1><strong> Access </strong></h1>
+
+<button class="accordion"><strong>Where is the APC Library located?</strong></button>
+<div class="panel">
+  <p>The APC library is located at the 7th Floor Building, 3 Humabon Place Magallanes, Makati City.</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.1901682504194!2d121.01874007381305!3d14.531112385947026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c93018658925%3A0x6de8e16ad051b59e!2sAsia%20Pacific%20College!5e0!3m2!1sen!2sph!4v1712222598444!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<button class="accordion"><strong>How can I contact the library?</strong></button>
+<div class="panel">
+  <p>Email: library@apc.edu.ph<br>
+     Facebook Page: Asia Pacific College Library<br>
+     Telephone: +63 2 8852 9232 / Local 406 or 407
+  </p>
+</div>
+
+<button class="accordion"><strong>Do you accept visiting researchers?</strong></button>
+<div class="panel"><br>
+  <p>Yes, visiting researchers are welcome at the APC library.</p>
+  <p><strong>Requirements:</strong><br>
+     1. On the date of your visit, bring a valid school/university/company ID, a copy or screenshot of the email approval, and present the referral letter from your office/school head librarian requesting the privilege to use the APC library along with their authorized signature.<br>
+     2. Fill out the <a href="https://forms.office.com/r/vwjcgqnM9D">Visiting Researcher Form</a>
+  </p>
+  <p><strong>Fees:</strong><br>
+<strong> APC Alumni </strong><br>
+- Free of charge (just present an updated alumni ID).<br>
+     <strong>Consortium Partners (All NU Campuses)</strong><br>
+     - Free of charge.<br>
+     <strong>Graduate/Undergraduate students from other schools/institutions</strong><br>
+     - Php 50.00 per visit<br>
+     <strong>Private and Government Researchers</strong><br>
+     - Php 100.00 per visit
+  </p>
+  <p>For more details, please refer to <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=guidelines-for-non-apc-researchers">Guidelines for Visitors and Non-APC Researchers</a></p>
+</div>
+
+<button class="accordion"><strong>Can I eat or drink inside the library?</strong></button>
+<div class="panel">
+  <p>Eating is not allowed in the main library and open discussion area. Students caught eating or drinking in these areas will be reported to the Discipline Office.</p>
+</div>
+
+<button class="accordion"><strong>Do you allow charging of electronic devices inside the library?</strong></button>
+<div class="panel">
+  <p>Charging of electronic devices is allowed inside the library.</p>
+</div>
+
+<button class="accordion"><strong>How do I access Wi-Fi inside the library?</strong></button>
+<div class="panel">
+  <p>Connect your electronic device to "WiFi-Library" and you may ask the librarian-in-charge for the password.</p>
+</div>
+
+<br><h1><strong> Borrowing/Returning/Renewal of Books </strong></h1>
+
+<button class="accordion"><strong>How many books can I borrow?</strong></button>
+<div class="panel">
+  <p>There is no limit on the number of books that may be borrowed.</p>
+</div>
+
+<button class="accordion"><strong>How much is the library fine?</strong></button>
+<div class="panel">
+  <p>The APC Library has a penalty of Php 20.00 per book, per day for late returns.</p>
+</div>
+
+<button class="accordion"><strong>How many days can I borrow a book?</strong></button>
+<div class="panel">
+  <p><strong>Student:</strong><br>
+     CFP Collection/Circulation/Filipiniana Section - 14 days<br>
+     Reserve Section - 1 day<br>
+     Reference/Periodicals/Special Collection - for use within the APC Library only<br>
+     <strong>Full-Time & Adjunct Lecturer:</strong><br>
+     CFP Collection/Circulation/Filipiniana Section - 14 days<br>
+     Reserve Section - 7 days<br>
+     Reference/Periodicals/Special Collection - for use within the APC Library only
+  </p>
+</div>
+
+<button class="accordion"><strong>Can I renew borrowed books?</strong></button>
+<div class="panel">
+  <p>Yes, you may go to the APC Library and ask the Librarian-in-charge to renew your borrowed books.</p>
+</div>
+
+<button class="accordion"><strong>Can I renew my borrowed books online?</strong></button>
+<div class="panel">
+  <p>Yes, you can request a book renewal online. Please send us an email at <strong>library@apc.edu.ph</strong> and include the following details:<br>
+     - Your full name<br>
+     - Title of the book/s<br>
+     - Barcode of the book (you may see the barcode at the back of the book)<br>
+     <br>Or you may send the front and back image of the book/s that you borrowed.<br>
+     You can also send a message to the librarians via MS Teams. Please refer to <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=organizational-structure">Organizational Structure</a>
+  </p>
+</div>
+
+<button class="accordion"><strong>How do I borrow theses papers?</strong></button>
+<div class="panel">
+  <p>You may go to the main library and ask the Librarian-in-charge to give you the list of theses by school. Scan the QR code then fill out the form. Please note that Theses papers are for viewing/reading within the APC Library premises only.</p>
+</div>
+
+<button class="accordion"><strong>I have an overdue book/s, how do I pay my fines?</strong></button>
+<div class="panel">
+  <p>After you have returned your overdue item, fines will be computed and indicated in an overdue slip issued by the Librarian-in-charge.<br>
+     1. Proceed to the Finance Office (4th floor) and pay the indicated amount.<br>
+     2. Go back to the library to present the official receipt to the librarian. The Librarian will process and clear your library overdue fine in the library system. You will receive an email from the APC Library regarding the confirmation of your payment.
+  </p>
+  <p><strong>Note:</strong> If you need further assistance, please email us at <strong>library@apc.edu.ph</strong></p>
+</div>
+
+<button class="accordion"><strong>How do I access E-Books?</strong></button>
+<div class="panel">
+  <p>There are two types of e-books accessible online in the APC Library.<br>
+     1. Library’s Subscription E-Books<br>
+     2. E-books available through APC’s Online Catalog<br>
+     <br>Library’s Subscription E-Books<br>
+     To access e-books available through the APC Library's subscription, visit our <a href="https://library.apc.edu.ph/cgi-bin/koha/opac-search.pl?q=">Koha Online Catalog</a>.<br>
+     <br>E-Books available through APC’s Online Catalog<br>
+     Access e-books through APC’s Online Catalog. You may search for e-books by title, author, or subject in the Koha OPAC.<br>
+     <br>For more details, please refer to <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=guide-to-e-books">Guide to E-Books</a>
+  </p>
+</div>
+
+<br><h1><strong> Resources </strong></h1>
+
+<button class="accordion"><strong>Can I access online resources from home?</strong></button>
+<div class="panel">
+  <br> <p>Yes, you may access online resources from anywhere by logging-in using your APC credentials.</p>
+</div>
+
+<button class="accordion"><strong>Can I download the e-Books?</strong></button>
+<div class="panel">
+  <br> <p>In compliance with copyright laws and intellectual property regulations, we are unable to offer e-book downloads. We respect the rights of authors and publishers and encourage users to access content through our e-Book platform only.</p>
+</div>
+
+<button class="accordion"><strong>How to access the online library?</strong></button>
+<div class="panel">
+  <br> <p> <img src="/cgi-bin/koha/opac-retrieve-file.pl?id=23fc327245c6ecf9282d0eb93422a088" style="width: 100%;" /> </p>
+</div>
+
+<button class="accordion"><strong>How can I view the e-resources in the online library?</strong></button>
+<div class="panel">
+  <br> <p> <img src="/cgi-bin/koha/opac-retrieve-file.pl?id=64df7b175f2d82ff1f66ae92483f593e" style="width: 100%;" /> <br> You may request further assistance from the APC Librarians by sending an email to <strong>library@apc.edu.ph</strong></p>
+</div>
+
+<button class="accordion"><strong>Can APC alumni borrow books?</strong></button>
+<div class="panel">
+  <br> <p>APC alumni are welcome to utilize APC library materials but within APC library premises only. They must present their alumni ID to the Librarian-in-charge.</p>
+</div>
+
+<br><h1><strong> Services </strong></h1>
+
+<button class="accordion"><strong>Can I request a library instruction for my class? (For Full-Time & Adjunct Lecturer)</strong></button>
+<div class="panel">
+  <br> <p>Yes. A library instruction session may be scheduled upon request by APC full time faculty and Adjunct Lecturers. The session may be onsite or on hyflex mode. <br>
+ 
+To request a library instruction session, please fill out <a href="https://forms.office.com/r/xeZxpacj28"> Library Instruction Request Form </a></p>
+</div>
+
+<button class="accordion"><strong>Can you help me with referencing?</strong></button>
+<div class="panel">
+  <br> <p>Please refer to <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=apc-library-guides-citation-tools"><strong> Online Bibliography & Citation Tools </a></strong></p>
+</div>
+
+<button class="accordion"><strong>I cannot go on-site, do you have a book scanning service?</strong></button>
+<div class="panel">
+  <br> <p>Please refer to <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=scanning-service"><strong> Scanning Service </a></strong></p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
