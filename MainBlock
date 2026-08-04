@@ -1,0 +1,194 @@
+<div class="en_item">
+<div class="en_body">
+<style>
+ /* Container for the slideshow */
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Number text (1/7 etc.) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 8px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 10px;
+  margin-top: -16px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  transition: 0.3s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a background color */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Center the dots properly */
+.dot-container {
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Gray dots */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active-dot,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Force slideshow images into fixed size */
+.mySlides img {
+  width: 110%;      /* adjust as needed */
+  object-fit: cover;  /* crop to fill without distortion */
+  border-radius: px;
+  animation: fade 1s;
+}
+
+.column {
+  flex: 0 0 auto;
+  width: 100px;
+  margin: 0px;
+}
+
+.column img {
+  opacity: 0.6;
+  cursor: pointer;
+  width: 110%;
+  border-radius: 4px;
+  transition: opacity 0.3s;
+}
+
+.column img:hover, 
+.column img.active {
+  opacity: 1;
+  border: 2px solid #f1f1f1;
+}
+
+/* Smooth fade effect for main slides */
+.mySlides img {
+  border-radius: 0px;
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+</style>
+<script>
+let slideIndex = 1;
+let slideTimer;
+
+showSlides(slideIndex);
+startAutoPlay();
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+  resetAutoPlay();
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+  resetAutoPlay();
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].classList.remove("active-dot");
+  }
+
+  slides[slideIndex - 1].style.display = "block";  
+  dots[slideIndex - 1].classList.add("active-dot");
+}
+
+function startAutoPlay() {
+  slideTimer = setInterval(function() {
+    plusSlides(1);
+  }, 5000); // 5 seconds
+}
+
+function resetAutoPlay() {
+  clearInterval(slideTimer);
+  startAutoPlay();
+}
+</script>
+<div class="container"><!-- Full-size slides -->
+<div class="mySlides" style="display: block;">
+<div class="numbertext">1 / 7</div>
+<img src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=93faec6dd3a304f4dec9a616bddb8ccf" height="562" style="width: 997px;" /></div>
+<div class="mySlides" style="display: none;">
+<div class="numbertext">2 / 7</div>
+<img src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=83a6edb0dc60381baf646afcddff6631" style="width: 100%;" /></div>
+<div class="mySlides" style="display: none;">
+<div class="numbertext">3 / 7</div>
+<img src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=b200f675e10a3066af372683cf905dcb" style="width: 100%;" /></div>
+<div class="mySlides" style="display: none;">
+<div class="numbertext">4 / 7</div>
+<img src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=7213de747ee0924d1afa966241daebc3" style="width: 100%;" /></div>
+<div class="mySlides" style="display: none;">
+<div class="numbertext">5 / 7</div>
+<a href="https://library-apc-new-arrivals.my.canva.site/"> <img src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=252123afc804c3acce35c6276f0022ab" style="width: 100%;" /></a></div>
+<div class="mySlides" style="display: none;">
+<div class="numbertext">6 / 7</div>
+<img src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=8f8d5795daaa1edc01f2bdab210fc164" style="width: 100%;" /></div>
+<div class="mySlides" style="display: none;">
+<div class="numbertext">7 / 7</div>
+<img src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=b7790416b92a1c3fdf39cccc51a413b4" style="width: 100%;" /></div>
+<!-- Prev/Next arrows --> <a class="prev" onclick="plusSlides(-1)">❮</a> <a class="next" onclick="plusSlides(1)">❯</a> <!-- Dots navigation -->
+<div class="dot-container"><span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span> <span class="dot" onclick="currentSlide(4)"></span> <span class="dot" onclick="currentSlide(5)"></span> <span class="dot" onclick="currentSlide(6)"></span> <span class="dot" onclick="currentSlide(7)"></span></div>
+<p style="font-family: verdana; font-size: 28px; font-weight: 500; text-align: center; background-color: #e7af41; padding: 15px; border-radius: 15px;"><strong>NEW ACQUISITIONS</strong></p>
+<video width="100%" autoplay="autoplay">
+  <source src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=33f08bc4d3daa96e0badeab88704551d" type="video/mp4" />
+
+</video></div>
+</div>
+</div>
