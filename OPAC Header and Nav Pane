@@ -1,0 +1,32 @@
+
+Purpose: OPAC Header and Navigation Pane
+
+<div class="en_item">
+<div class="en_body">
+<div class="opacheader_en_body">
+<div style="text-align: center;"><a href="https://library.apc.edu.ph/" style="color: white; text-decoration: none;"><img src="https://library.apc.edu.ph/cgi-bin/koha/opac-retrieve-file.pl?id=67c52d6b2458cd63eb9856995328414d" width="100%" a="" /></a></div>
+
+Navigation Pane
+
+
+<div class="topnav" id="myTopnav"><a href="/cgi-bin/koha/opac-main.pl" class="active">Home</a>
+<div class="dropdown1 button1"><button class="dropbtn1"><span>About us </span></button>
+<div class="dropdown-content"><a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=vision-mission-statement" style="color: #ffffff;">VMGO </a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=organizational-structure" style="color: #ffffff;">Organizational Structure</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=libraryhours" style="color: #ffffff;">Library Hours</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=facilities" style="color: #ffffff;">Facilities</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=affliations-partnership" style="color: #ffffff;">Affliations / Partnership </a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=virtual-tour" style="color: #ffffff;">Library Virtual Tour</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=utilization-statistical-report" style="color: #ffffff;">Utilization Statistical Report</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=contact-information" style="color: #ffffff;">Contact Information</a></div>
+</div>
+<div class="dropdown1 button1"><button class="dropbtn1"><span>Resources</span></button>
+<div class="dropdown-content"><a href="https://library-apc-new-arrivals.my.canva.site/" style="color: #ffffff;">New Arrivals</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=av-materials" style="color: #ffffff;">AV Materials</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/opac-course-details.pl?course_id=650" style="color: #ffffff;">Faculty Research and Publications</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=databases" style="color: #ffffff;">Open Access Databases</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=free-access-e-books" style="color: #ffffff;">Open Access e-Book Databases</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=free-e-journals" style="color: #ffffff;">Open Access e-Journals</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=online-news" style="color: #ffffff;">Online News</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=open-educational-resources" style="color: #ffffff;">Open Educational Resources (OER)</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=open-access-thesis-and-dissertations" style="color: #ffffff;">Open Access Theses and Dissertations</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=undergraduate-theses" style="color: #ffffff;">Theses/ Feasibility Studies</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=online-filipiniana-resources" style="color: #ffffff;">Online Filipi&ntilde;iana Resources</a></div>
+</div>
+<div class="dropdown1 button1"><button class="dropbtn1"><span>Services &amp; Program</span></button>
+<div class="dropdown-content"><a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=inter-referral-service" style="color: #ffffff;">Referral Service </a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=scanning-service" style="color: #ffffff;">Scanning Service</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=online-courses" style="color: #ffffff;">Online Courses (Skills Development)</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=library-activities" style="color: #ffffff;">Library Activities</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=library-orientation-instruction" style="color: #ffffff;">Library Orientation / Instruction</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=community-extension-program" style="color: #ffffff;">Community Extension Program</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=online-information-literacy-program" style="color: #ffffff;">Literacy Program</a></div>
+</div>
+<a href="https://elibrary.apc.edu.ph/" style="color: #ffffff;" target="_blank" rel="noopener">APC Repository Project</a>
+<div class="dropdown1 button1"><button class="dropbtn1"><span>Research Guides </span></button>
+<div class="dropdown-content"><a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=apc-library-guides-citation-tools" style="color: #ffffff;">Online Bibliography and Citation Tools</a> <a href="https://library.apc.edu.ph/cgi-bin/koha/pages.pl?p=apc-library-guides-plagiarism-checker" style="color: #ffffff;">Online Plagiarism Checker</a></div>
+</div>
+<div class="dropdown1 button1"><button class="dropbtn1"><span>Forms </span></button>
+<div class="dropdown-content"><a href="https://asiapacificcollege-my.sharepoint.com/:w:/g/personal/aprilannet_apc_edu_ph/ERH5zk2oDERPtDIsI96nic0BFy54fuS9V2nC2hJ9oszROw?e=P0WbKM" style="color: #ffffff;">Book Requisition Form</a> <a href="https://forms.office.com/r/dzkkQzGw9c" style="color: #ffffff;">Document Scan Request Form</a> <a href="https://forms.office.com/r/N4BycXNFGB" style="color: #ffffff;">Library Facility Reservation Form</a> <a href="https://forms.office.com/r/pNiu1XHyuE" style="color: #ffffff;">Library Equipment/Furniture Monitoring Form</a> <a href="https://forms.office.com/r/xeZxpacj28" style="color: #ffffff;">Library Instruction Request Form</a> <a href="https://forms.office.com/r/vwjcgqnM9D" style="color: #ffffff;">Visiting Researcher Form</a></div>
+</div>
+<a href="https://outlook.office.com/book/BookALibrarian@apc.edu.ph/" a="" style="color: #ffffff;" target="_blank" rel="noopener">Book a Librarian</a> <a href="/cgi-bin/koha/pages.pl?p=faqs" style="color: #ffffff;">FAQs</a> <a href="https://www.apc.edu.ph/" style="color: #ffffff;" target="_blank" rel="noopener">APC Website</a></div>
+</div>
+</div>
+</div>
